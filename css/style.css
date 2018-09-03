@@ -1,0 +1,62 @@
+/* starter */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+header img{
+  width: 45%;
+}
+
+/* test */
+
+.results{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container{
+  border: 1px solid black;
+  flex-direction:column;
+  min-width: 23vw;
+  max-width: 23vw;
+  min-height: 63vh;
+  margin: 8vh 3vw 8vh 3vw;
+  align-items: center;
+}
+
+.container img{
+  border-bottom: 1px solid black;
+  min-height: 36vh;
+  max-height: 36vh;
+  min-width: 100%;
+}
+
+.container .body{
+  display: flex;
+  flex-direction: row;
+}
+
+.container .planetNames{
+  flex: 1;
+  justify-content: flex-start;
+  padding-left: 2vw;
+}
+
+.container .planetInform{
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 2vw;
+}
+
+
+/* Assignment */
+
